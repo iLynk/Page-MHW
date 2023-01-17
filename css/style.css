@@ -61,3 +61,35 @@
     font-size: 3rem;;
     margin-bottom: 30vh;
     }
+#slide-selector{
+    font-family: "Sofia sans semi Condensed";
+    font-weight: bold;
+}
+#carousel{
+    background-color: #081a1f;
+    text-align: center;
+
+}
+#slide-container h2{
+    color: #F59E0B;
+    font-size: xx-large;
+    padding-top: 20px;  
+}
+#photo{
+    margin:left;
+    padding: 20px;
+}
+#prev-button{
+    color: white;
+    font-size: xx-large;
+    padding: 36px;
+}
+#next-button{
+    color: white;
+    font-size: xx-large;
+    padding: 36px;
+}
+#desc{
+    color: white;
+    font-size: x-large;
+}
