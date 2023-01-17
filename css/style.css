@@ -1,0 +1,63 @@
+*{
+    font-family: "Sofia sans semi Condensed";
+    font-weight: bold;
+}
+
+#carousel{
+    background-color: #081a1f;
+}
+
+#test{
+    background-color: #081a1f;
+}
+
+#main, #transi, #weapons{
+    background-color:  #081a1f;
+    color: white;
+}
+
+#home{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+#monsters img{
+    width: 252px;
+    height: 250px;
+}
+
+#p2, #transi{
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#background-video{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    }  
+
+.content h1, h2{    
+    color: white;  
+    font-weight: bold;
+    text-align: center;
+    }
+
+.content h1{
+    font-size: 6rem;
+    margin-top: 30vh;
+    }
+
+.content h2{
+    font-size: 3rem;;
+    margin-bottom: 30vh;
+    }
