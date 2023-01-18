@@ -64,6 +64,8 @@
 #slide-selector{
     font-family: "Sofia sans semi Condensed";
     font-weight: bold;
+    background-color: #081a1f;
+    color: white;
 }
 #carousel{
     background-color: #081a1f;
@@ -76,7 +78,7 @@
     padding-top: 20px;  
 }
 #photo{
-    margin:left;
+    margin-left: 40%;
     padding: 20px;
 }
 #prev-button{
@@ -92,4 +94,10 @@
 #desc{
     color: white;
     font-size: x-large;
+}
+#imagesp{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
 }
