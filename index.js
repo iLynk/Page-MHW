@@ -9,13 +9,13 @@ const slidesData = [
   {
     id: '2',
     title: "Épée longue",
-    content: "L'Épée longue",
+    content: "La Grande Epée est une très bonne arme possédant des dégats immenses notemment grâce à son attaque chargée",
     img: 'katana.png',
   },
   {
     id: '3',
     title: 'Épée & bouclier',
-    content: "l'Épée-bouclier",
+    content: "La Grande Epée est une très bonne arme possédant des dégats immenses notemment grâce à son attaque chargéeLa Grande Epée est une très bonne arme possédant des dégats immenses notemment grâce à son attaque chargéeLa Grande Epée est une très bonne arme possédant des dégats immenses notemment grâce à son attaque chargéel'Épée-bouclier",
     img: 'sns.png',
   },
   {

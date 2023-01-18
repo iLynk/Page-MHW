@@ -72,14 +72,23 @@
     text-align: center;
 
 }
+#slide-container{
+    padding: 30px;
+    margin: auto;
+}
 #slide-container h2{
     color: #F59E0B;
     font-size: xx-large;
-    padding-top: 20px;  
+    padding-top:20px;
+    padding-bottom: 10px;  
 }
-#photo{
-    margin-left: 40%;
-    padding: 20px;
+#slide-container img{
+    margin:auto;
+    padding:20px;  
+}
+#slide-container p{
+    color: white;
+    font-size: xx-large;
 }
 #prev-button{
     color: white;
@@ -91,12 +100,7 @@
     font-size: xx-large;
     padding: 36px;
 }
-#desc{
-    color: white;
-    font-size: x-large;
-}
-#imagesp{
-    display: grid;
+#slide-container{
     align-items: center; 
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
