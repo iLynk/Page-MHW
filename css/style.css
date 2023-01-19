@@ -3,20 +3,16 @@
     font-weight: bold;
 }
 
-#carousel{
+#nav{
     background-color: #081a1f;
 }
 
-#test{
-    background-color: #081a1f;
-}
-
-#main, #transi, #weapons{
+#main, #transi{
     background-color:  #081a1f;
     color: white;
 }
 
-#home{
+#intro{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 40px;
@@ -75,6 +71,7 @@
 #slide-container{
     padding: 30px;
     margin: auto;
+    
 }
 #slide-container h2{
     color: #F59E0B;

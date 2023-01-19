@@ -5,20 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
     <style>@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@300&display=swap');</style>
     <link rel="icon" type="image/png" href="images/icon_02.png" />
-
+    <title>Monster Hunter World</title>
 </head>
-<title>Monster Hunter World</title>
 <body>
 
     <!-- NAVIGATION-->
 
     <header class="sticky top-0">
-        <nav id="test"class="flex justify-center space-x-4 text-xl">
+        <nav id="nav"class="flex justify-center space-x-4 text-xl">
             <a href="#p1" class="font-bold px-3 py-2 text-white rounded-lg hover:bg-white hover:text-black">ACCUEIL</a>
             <a href="#p2" class="font-bold px-3 py-2 text-white rounded-lg hover:bg-white hover:text-black">MONSTRES</a>
             <a href="#p3" class="font-bold px-3 py-2 text-white rounded-lg hover:bg-white hover:text-black">ARMES</a>
@@ -32,68 +30,58 @@
     <source src="images/Monster Hunter World GMV- Here We Go.mp4" type="video/mp4">  
     </video>
     
-    <!-- CHAPITRE 1 -->
+    <!-- TITRE -->
 
         <div class="content">
-        
-        <h1>MONSTER HUNTER WORLD</h1>
-        
-        <h2> La quête de la chasse</h2>
-
+            <h1>MONSTER HUNTER WORLD</h1>
+            <h2> La quête de la chasse</h2>
         </div>
-        <section id="main">
-            <div id="home" class="border-double border-8 border-white ">
-                <h1>INTRODUCTIOn</h1>
-            </div>
-            <div id="p2" class="border-double border-x-8 border-white pt-4">
-                <p><span class="text-amber-500">MONSTER HUNTER WORLD </span> est un <span class="text-rose-700">ACTION-RPG</span> développé et édité par <span class="text-blue-700">CAPCOM</span> sorti en 2018. Le but est simple, tuer des monstres, récuperer leurs matériaux afin de confectionner un meilleur équipement pour tuer de plus gros monstres et rebelotte. <br> Sur cette page vous retrouverez les différents monstres peuplant le jeu, ainsi que des petites informations <span class="italic text-red-400">(PV, Faiblesses, Parties cassables/tranchables...)</span> </p>
-            </div>
+
+    <!-- INTRODUCTION -->
+
+    <section id="main">
+        <div id="intro" class="border-double border-8 border-white ">
+            <h1>INTRODUCTIOn</h1>
+        </div>
+        <div id="p2" class="border-double border-x-8 border-white pt-4">
+            <p><span class="text-amber-500">MONSTER HUNTER WORLD </span> est un <span class="text-rose-700">ACTION-RPG</span> développé et édité par <span class="text-blue-700">CAPCOM</span> sorti en 2018. Le but est simple, tuer des monstres, récuperer leurs matériaux afin de confectionner un meilleur équipement pour tuer de plus gros monstres et rebelotte. <br> Sur cette page vous retrouverez les différents monstres peuplant le jeu, ainsi que des petites informations <span class="italic text-red-400">(PV, Faiblesses, Parties cassables/tranchables...)</span> </p>
+        </div>
 
     <!-- CARTES -->
 
-            <div id="monsters"class="flex justify-around border-double border-x-8 border-white">
-                <div class=" rounded-lg shadow-lg bg-white max-w-sm max-h-a">
-                    <img id="jag"class="mx-auto" src="images/jagras.png" alt="jagras"/>
-                  </a>
-                  <div class="p-6">
-                    <h2 class="text-red-800 text-3xl font-bold">Grand Jagras</h2>
-                    <p class="text-black text-base mb-4">
-                      Vie: 1408 PV <br> Faiblesses : 🔥(3) ⚡(2) ❄️(2) <br> Sa tête, son ventre ainsi que ses pattes avant sont brisables💥                      
-                    </p>
-                  </div>
-                </div>
+        <div id="monsters"class="flex justify-around border-double border-x-8 border-white">
+          <div class=" rounded-lg shadow-lg bg-white max-w-sm max-h-a">
+              <img id="jag"class="mx-auto" src="images/jagras.png" alt="jagras"/>
+              <div class="p-6">
+                  <h2 class="text-red-800 text-3xl font-bold">Grand Jagras</h2>
+                  <p class="text-black text-base mb-4"> Vie: 1408 PV <br> Faiblesses : 🔥(3) ⚡(2) ❄️(2) <br> Sa tête, son ventre ainsi que ses pattes avant sont brisables💥</p>
+              </div>
+          </div>
 
-                <div class="rounded-lg shadow-lg bg-white max-w-sm ">
-                      <img class="mx-auto rounded-t-lg " src="images/anja.webp" alt="anja"/>
-                    </a>
-                    <div class="p-6">
-                      <h5 class="text-center text-red-800 text-3xl font-bold">Anjanath</h5>
-                      <p class="text-black text-base mb-4">
-                        Vie: 1696 PV <br> Faiblesses: 💧(3) 🔥(2) ❄️(2) ⚡(2) 🐲(2)<br> Sa tête ainsi que ses pattes avant sont brisables💥
-                      </p>
-                    </div>
-                </div>
-                <div class="rounded-lg shadow-lg bg-white max-w-sm">
-                    <img class="mx-auto" src="images/toppng.com-mhw-tobi-kadachi-icon-monster-hunter-world-tobi-kadachi-ico-467x462.png" alt="tobi"/>
-                    </a>
-                    <div class="p-6">
-                      <h5 class="text-center text-red-800 text-3xl font-bold">Tobi Kadachi</h5>
-                      <p class="text-black text-base mb-4">
-                        Vie: 2464 PV <br> Faiblesses: ⚡(3) 🔥(2) ❄️(2)<br> Sa tête, ses ailes et son corps sont brisables💥 Sa queue peut être coupée🔪
-                      </p>
-                    </div>
-                </div>
-                <div class="rounded-lg shadow-lg bg-white max-w-sm">
-                    <img class="mx-auto" src="images/em002_ID.png" alt="Rathalos"/>
-                  </a>
-                  <div class="p-6">
-                    <h2 class="text-red-800 text-3xl font-bold">Rathalos</h2>
-                    <p class="text-black text-base mb-4">
+          <div class="rounded-lg shadow-lg bg-white max-w-sm ">
+              <img class="mx-auto rounded-t-lg " src="images/anja.webp" alt="anja"/>
+              <div class="p-6">
+                  <h2 class="text-red-800 text-3xl font-bold">Anjanath</h5>
+                  <p class="text-black text-base mb-4">Vie: 1696 PV <br> Faiblesses: 💧(3) 🔥(2) ❄️(2) ⚡(2) 🐲(2)<br> Sa tête ainsi que ses pattes avant sont brisables💥</p>
+              </div>
+          </div>
+          <div class="rounded-lg shadow-lg bg-white max-w-sm">
+              <img class="mx-auto" src="images/toppng.com-mhw-tobi-kadachi-icon-monster-hunter-world-tobi-kadachi-ico-467x462.png" alt="tobi"/>
+              <div class="p-6">
+                  <h2 class="text-red-800 text-3xl font-bold">Tobi Kadachi</h5>
+                  <p class="text-black text-base mb-4">Vie: 2464 PV <br> Faiblesses: ⚡(3) 🔥(2) ❄️(2)<br> Sa tête, ses ailes et son corps sont brisables💥 Sa queue peut être coupée🔪</p>
+              </div>
+          </div>
+          <div class="rounded-lg shadow-lg bg-white max-w-sm">
+              <img class="mx-auto" src="images/em002_ID.png" alt="Rathalos"/>
+              <div class="p-6">
+                  <h2 class="text-red-800 text-3xl font-bold">Rathalos</h2>
+                  <p class="text-black text-base mb-4">
                       Vie: 1408 PV <br> Faiblesses : 🔥(3) ⚡(2) ❄️(2) <br> Sa tête, son ventre ainsi que ses pattes avant sont brisables💥                      
                     </p>
                   </div>
                 </div>
-            </div>
+        </div>
 
     <!--CARTES P2-->
 
@@ -112,7 +100,7 @@
                       <img class="mx-auto" src="images/paolomu.webp" alt="paolomu"/>
                     </a>
                     <div class="p-6">
-                      <h5 class="text-center text-red-800 text-3xl font-bold">Paolomu</h5>
+                      <h2 class="text-red-800 text-3xl font-bold">Paolomu</h5>
                       <p class="text-black text-base mb-4">
                         Vie: 1696 PV <br> Faiblesses: 💧(3) 🔥(2) ❄️(2) ⚡(2) 🐲(2)<br> Sa tête ainsi que ses pattes avant sont brisables💥
                       </p>
@@ -123,7 +111,7 @@
                     <img class="mx-auto" src="images/diablos.webp" alt="diablos"/>
                     </a>
                     <div class="p-6">
-                      <h5 class="text-center text-red-800 text-3xl font-bold">Diablos</h5>
+                      <h2 class="text-red-800 text-3xl font-bold">Diablos</h5>
                       <p class="text-black text-base mb-4">
                         Vie: 2464 PV <br> Faiblesses: ⚡(3) 🔥(2) ❄️(2)<br> Sa tête, ses ailes et son corps sont brisables💥 Sa queue peut être coupée🔪
                       </p>
@@ -159,18 +147,17 @@
                       <img class="mx-auto" src="images/teostra.webp" alt="Teostra"/>
                     </a>
                     <div class="p-6">
-                      <h5 class="text-center text-red-800 text-3xl font-bold">Teostra</h5>
+                      <h2 class="text-red-800 text-3xl font-bold">Teostra</h5>
                       <p class="text-black text-base mb-4">
                         Vie: 1696 PV <br> Faiblesses: 💧(3) 🔥(2) ❄️(2) ⚡(2) 🐲(2)<br> Sa tête ainsi que ses pattes avant sont brisables💥
                       </p>
                     </div>
                 </div>
-
                 <div class="rounded-lg shadow-lg bg-white max-w-sm">
                     <img class="mx-auto" src="images/vaal.webp" alt="Vaal"/>
                     </a>
                     <div class="p-6">
-                      <h5 class="text-center text-red-800 text-3xl font-bold">Vaal Hazak</h5>
+                      <h2 class="text-red-800 text-3xl font-bold">Vaal Hazak</h5>
                       <p class="text-black text-base mb-4">
                         Vie: 2464 PV <br> Faiblesses: ⚡(3) 🔥(2) ❄️(2)<br> Sa tête, ses ailes et son corps sont brisables💥 Sa queue peut être coupée🔪
                       </p>
@@ -206,7 +193,7 @@
                       <img class="mx-auto" src="images/xeno.webp" alt="Xeno"/>
                     </a>
                     <div class="p-6">
-                      <h5 class="text-center text-red-800 text-3xl font-bold">Xeno Jiva</h5>
+                      <h2 class="text-red-800 text-3xl font-bold">Xeno Jiva</h5>
                       <p class="text-black text-base mb-4">
                         Vie: 1696 PV <br> Faiblesses: 💧(3) 🔥(2) ❄️(2) ⚡(2) 🐲(2)<br> Sa tête ainsi que ses pattes avant sont brisables💥
                       </p>
@@ -217,7 +204,7 @@
                     <img class="mx-auto" src="images/kulve.png" alt="Kulve"/>
                     </a>
                     <div class="p-6">
-                      <h5 class="text-center text-red-800 text-3xl font-bold">Kulve Taroth</h5>
+                      <h2 class="text-red-800 text-3xl font-bold">Kulve Taroth</h5>
                       <p class="text-black text-base mb-4">
                         Vie: 2464 PV <br> Faiblesses: ⚡(3) 🔥(2) ❄️(2)<br> Sa tête, ses ailes et son corps sont brisables💥 Sa queue peut être coupée🔪
                       </p>
@@ -252,17 +239,17 @@
 
     <!--SLIDER-->
 
-        <section id="carousel"class="border-double border-x-8 border-white">
+    <section id="carousel"class="border-double border-x-8 border-white">
         <select id="slide-selector" class="flex mx-auto text-2xl"></select>
-    <div id="slide-container" class="">
-      <img id="photo" src="images/epee.png" alt="epee">
-      <h2 class="text-amber-500 text-3xl pt-5">Grande Epée</h2>
-        
-      <p id="desc">La Grande Epée est une très bonne arme possédant des dégats immenses notemment grâce à son attaque chargée</p>       
-    </div>
+        <div id="slide-container" class="">
+          <img id="photo" src="images/epee.png" alt="epee">
+          <h2 class="text-amber-500 text-3xl pt-5">Grande Epée</h2>
+          <p id="desc">La Grande Epée est une très bonne arme possédant des dégats immenses notemment grâce à son attaque chargée</p>       
+        </div>
+
       <button class="text-white text-2xl p-9" id="prev-button">Précédent</button>
       <button class="text-white text-2xl p-9" id="next-button">Suivant</button>
-    <script src="index.js"></script>
+      <script src="index.js"></script>
     </section>
       <footer id="p4"></footer>
 </body>
